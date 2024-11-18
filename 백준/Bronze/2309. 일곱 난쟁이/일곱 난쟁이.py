@@ -1,7 +1,6 @@
 import itertools
 
 nan = []
-res = []
 
 for _ in range(9) :
     nan.append(int(input()))
