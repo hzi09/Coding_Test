@@ -1,5 +1,5 @@
 while True :
-    cnt = 1
+    cnt = 0
     st = list(input().lower())
     if st == ['#'] :
         break
