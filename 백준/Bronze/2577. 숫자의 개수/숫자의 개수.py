@@ -6,4 +6,3 @@ for i in range(3) :
 for i in range(10) :
     num_list = list(map(int, str(answer)))
     print(num_list.count(i))
-    
