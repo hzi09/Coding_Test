@@ -1,5 +1,5 @@
 def solution(box, n):
-    box_volume = 1
+    total_dice = 1
     for i in box :
-        box_volume *=  i // n
-    return box_volume
+        total_dice *=  i // n
+    return total_dice
