@@ -1,3 +1,2 @@
-def solution(num1, num2):
-    answer = int(num1 - num2) 
-    return answer
+def solution(n1, n2):
+    return int(n1 - n2) 
