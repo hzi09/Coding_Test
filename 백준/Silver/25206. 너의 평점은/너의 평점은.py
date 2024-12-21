@@ -1,5 +1,7 @@
+# 학점의 총합
 sum_score = 0
-all_score = []
+# 전체 과목의 (학점 × 과목평점) 합
+all_score = 0
 
 unit = {'A+' : 4.5, 'A0' : 4.0, 
         'B+' : 3.5, 'B0' : 3.0, 
@@ -8,12 +10,12 @@ unit = {'A+' : 4.5, 'A0' : 4.0,
 
 for _ in range(20) :
     report_card = input().split()
+    
     if report_card[2] == 'P' :
         pass
-
+		
     else :
         sum_score += float(report_card[1])
-        all_score.append(float(report_card[1]) * float(unit.get(report_card[2])))
+        all_score += float(report_card[1]) * float(unit.get(report_card[2]))
 
-
-print(f'{sum(all_score) / sum_score : 0.6f}')
+print(f'{all_score / sum_score : 0.6f}')
