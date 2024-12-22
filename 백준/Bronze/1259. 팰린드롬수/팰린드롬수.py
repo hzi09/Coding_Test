@@ -1,11 +1,11 @@
 while True:
     n1 = input()
-    n_list = list(reversed(n1))
-    n2 = int(''.join(n_list))
-    
-    if int(n1) != n2 :
-        print("no")
-    elif int(n1) == 0:
+    n2 = n1[::-1]
+
+    if int(n1) == 0:
         break
     else :
-        print("yes")
+        if n1 != n2:
+            print("no")
+        else:
+            print("yes")
