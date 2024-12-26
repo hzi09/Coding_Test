@@ -1,7 +1,6 @@
 def solution(my_string, n):
-    s_list = list(my_string)
-    new_list = []
+    answer = ''
     for i in my_string :
         a = i * n
-        new_list  += a
-    return ''.join(new_list)
+        answer  += a
+    return answer
