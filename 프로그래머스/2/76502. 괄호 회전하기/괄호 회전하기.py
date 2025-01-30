@@ -1,8 +1,7 @@
 def solution(s):
     cnt = 0
-    n = len(s)
     
-    for _ in range(n):
+    for _ in range(len(s)):
         ex_s = s
         while any(pair in ex_s for pair in ('()', '[]', '{}')):
             for pair in ('()', '[]', '{}'):
