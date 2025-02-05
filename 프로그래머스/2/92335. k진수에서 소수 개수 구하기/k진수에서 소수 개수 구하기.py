@@ -1,10 +1,10 @@
 def solution(n, k):
-    rev_base = ''
+    rev_base = []
 
     while n > 0:
         n, mod = divmod(n, k)
         rev_base += str(mod)
-    n = (rev_base[::-1]).split('0')
+    n = ''.join(rev_base[::-1]).split('0')
     
     n = list(filter(None, n))
     
