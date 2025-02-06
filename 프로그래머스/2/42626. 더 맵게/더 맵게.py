@@ -2,7 +2,7 @@ import heapq
 
 def solution(scoville, K) :
     answer = 0
-    s = scoville[:]
+    s = scoville
     heapq.heapify(s)
     while s and s[0] < K:
         try:
