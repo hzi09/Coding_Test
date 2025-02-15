@@ -18,5 +18,8 @@ WHERE m.movie_id = (SELECT movie_id
                     FROM MovieRating
                     WHERE created_at BETWEEN '2020-02-01' AND '2020-02-29'
                     GROUP BY movie_id
-                    ORDER BY AVG(rating) DESC, movie_id ASC
+                    ORDER BY AVG(rating) DESC,
+                            (SELECT title 
+                             FROM Movies 
+                             WHERE Movies.movie_id = MovieRating.movie_id) 
                     LIMIT 1)
