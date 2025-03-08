@@ -1,4 +1,4 @@
-# [Employee Names](https://www.hackerrank.com/challenges/more-than-75-marks/problem?isFullScreen=true)
+# [Employee Names](https://www.hackerrank.com/challenges/name-of-employees/problem?isFullScreen=true)
 
 ## Easy, SQL (Basic)
 Write a query that prints a list of employee names (i.e.: the name attribute) from the Employee table in alphabetical order.
