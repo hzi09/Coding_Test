@@ -1,7 +1,7 @@
-# [Revising Aggregations - The Sum Function](https://www.hackerrank.com/challenges/revising-aggregations-sum/problem?isFullScreen=true)
+# [Population Density Difference](https://www.hackerrank.com/challenges/population-density-difference/problem?isFullScreen=true)
 
 ## Easy, SQL (Basic)
-Query the total population of all cities in **CITY** where District is **California**.
+Query the difference between the maximum and minimum populations in **CITY**.
 
 **Input Format**
 
