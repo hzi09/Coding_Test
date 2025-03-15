@@ -1,0 +1,2 @@
+SELECT CEIL(AVG(Salary) - AVG(CAST(REPLACE(CAST(Salary AS CHAR), '0', '') AS UNSIGNED))) AS error
+FROM Employees
