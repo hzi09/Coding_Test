@@ -1,0 +1,3 @@
+SELECT CO.Continent, FLOOR(AVG(CI.Population))
+FROM CITY CI JOIN COUNTRY CO ON CI.CountryCode = CO.Code
+GROUP BY 1
