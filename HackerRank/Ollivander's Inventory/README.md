@@ -73,5 +73,7 @@ The minimum number of galleons needed for $wand(age = 20, power = 8) = 3688$
 
 The data for wands of age 17 (code 5): 
 
+![](https://s3.amazonaws.com/hr-challenge-images/19502/1458540132-79fd7b916b-ScreenShot2016-03-21at11.23.34AM.png)
+
 The minimum number of galleons needed for $wand(age = 17, power = 3) = 5689$
 The minimum number of galleons needed for $wand(age = 17, power = 10) = 9897$
